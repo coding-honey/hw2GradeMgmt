@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Custom Login Form</title>
 </head>
 <body onload='document.f.username.focus();'>
 	<h3>Custom Login ( gradetable search )</h3>
