@@ -23,12 +23,8 @@
 
 	<!-- if, else if, else형식으로 -->
 	<security:http auto-config="true" use-expressions="true">
-		<!-- <security:intercept-url pattern="/" access="permitAll" />
 		<security:intercept-url pattern="/login" access="permitAll" />
-		<security:intercept-url pattern="/loginout" access="isAuthenticated()" />
-		<security:intercept-url pattern="/gradetables" access="permitAll" />
-		<security:intercept-url pattern="/resources/**" access="permitAll" /> -->
-		<security:intercept-url pattern="/login" access="permitAll" />
+		<security:intercept-url pattern="/loginout" access="permitAll" />
 		<security:intercept-url pattern="/**" access="isAuthenticated()" />
 		
 		<security:form-login login-page="/login" />
